@@ -16,7 +16,7 @@ class Keylogger:
         self.interval = interval
         self.report_method = report_method
         # this is the string variable that contains the log of all 
-        # the keystrokes within `self.interval`
+        # the keystrokes within `self.interval 1`
         self.log = ""
         # record start & end datetimes
         self.start_dt = datetime.now()
